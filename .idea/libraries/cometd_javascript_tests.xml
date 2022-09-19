@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="cometd.javascript.tests" type="repository">
+    <properties maven-id="org.cometd.javascript:cometd-javascript-tests:6.0.2" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/cometd/javascript/cometd-javascript-tests/6.0.2/cometd-javascript-tests-6.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-client/10.0.2/jetty-client-10.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-http/10.0.2/jetty-http-10.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/10.0.2/jetty-util-10.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/10.0.2/jetty-io-10.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-alpn-client/10.0.2/jetty-alpn-client-10.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-jetty-client/10.0.2/websocket-jetty-client-10.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-jetty-api/10.0.2/websocket-jetty-api-10.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-jetty-common/10.0.2/websocket-jetty-common-10.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-core-common/10.0.2/websocket-core-common-10.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-core-client/10.0.2/websocket-core-client-10.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/graalvm/js/js/21.0.0.2/js-21.0.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/graalvm/regex/regex/21.0.0.2/regex-21.0.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/graalvm/truffle/truffle-api/21.0.0.2/truffle-api-21.0.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/graalvm/sdk/graal-sdk/21.0.0.2/graal-sdk-21.0.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/ibm/icu/icu4j/67.1/icu4j-67.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
