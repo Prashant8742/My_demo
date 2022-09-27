@@ -9,7 +9,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.slf4j.Logger;
@@ -17,17 +16,18 @@ import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.TimeUnit;
 
-public class Reg_def {
-        WebDriver d1;
-    protected Logger logger = LoggerFactory.getLogger(getClass().getSimpleName());
+public class Reg_def extends select_local_to_run{
+        static WebDriver d1;
+    protected static  Logger logger = LoggerFactory.getLogger(Reg_def.class.getSimpleName());
 
     @Test
     @Given("open chrome browser and url of the application")
     public void open_chrome_browser_and_url_of_the_application() {
         // Write code here that turns the phrase above into concrete actions
-        System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe");
-        d1=new ChromeDriver();
-        d1.get("https://www.allendigital.in");
+//        System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe");
+//        d1=new ChromeDriver();
+        browser();
+        d1.get("base_url");
         d1.manage().window().maximize();
         d1.manage().deleteAllCookies();
         logger.info("Opne URL of Application");

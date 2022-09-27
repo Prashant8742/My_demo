@@ -15,6 +15,16 @@
 
 
     <dependencies>
+
+     <!--for connecting to MS SQL SERVER-->
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>8.2.1.jre11</version>
+        </dependency>
+
+
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -48,7 +58,6 @@
 
 
 
-
         <!-- https://mvnrepository.com/artifact/log4j/log4j -->
 
 
@@ -73,6 +82,48 @@
             <artifactId>cucumber-testng</artifactId>
             <version>6.7.0</version>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.infotel.seleniumRobot</groupId>
+            <artifactId>core</artifactId>
+            <version>4.21.4</version>
+            <scope>test</scope>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.infotel.seleniumRobot</groupId>-->
+<!--            <artifactId>core</artifactId>-->
+<!--            <version>7.0.0</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.seleniumhq.selenium</groupId>-->
+<!--            <artifactId>selenium-support</artifactId>-->
+<!--            <version>4.21.4</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
+            <version>2.47.2</version>
+            <scope>test</scope>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.seleniumhq.selenium</groupId>-->
+<!--            <artifactId>selenium-support</artifactId>-->
+<!--            <version>4.21.4</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
 
 
     </dependencies>
